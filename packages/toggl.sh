@@ -27,8 +27,9 @@ function installToggl {
 
     InstallSubstep Moving Toggl to the right directory
 
-    mv toggldesktop /opt/
+    sudo mv toggldesktop /opt/
 
     InstallSubstep Installing Toggl
+    
     ln -s /opt/toggldesktop/TogglDesktop $HOME/Schreibtisch/Toggl
 }
