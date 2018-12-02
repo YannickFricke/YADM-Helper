@@ -22,12 +22,23 @@ eval "$(curl -o- -L -s -N https://raw.githubusercontent.com/YannickFricke/YADM-H
 
 Or use this simple function
 
+### cUrl
+
 ```bash
 function sourceHttpFile {
 	eval "$(curl -o- -L -s -N $1)"
 }
 ```
 
+### wget
+
+sourceHttpFile with wget:
+
+```bash
+function sourceHttpFile {
+	eval "$(wget -q -O - $1)"
+}
+```
 Example:
 
 ```bash
