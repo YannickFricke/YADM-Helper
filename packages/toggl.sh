@@ -30,6 +30,6 @@ function installToggl {
     sudo mv toggldesktop /opt/
 
     InstallSubstep Installing Toggl
-    
+
     ln -s /opt/toggldesktop/TogglDesktop $HOME/Schreibtisch/Toggl
 }
